@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Kilu Alarm</title>
+    <style>
+        :root {
+            --primary: #FF6B35;
+            --background: #0A0A0A;
+            --surface: #1A1A2E;
+            --card: #16213E;
+            --text-primary: #FFFFFF;
+            --text-secondary: #B0B0B0;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--background);
+            color: var(--text-secondary);
+            font-family: var(--font-family);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* App Bar Style Header */
+        header {
+            background-color: var(--background);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--card);
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            color: var(--primary);
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .header-title {
+            color: var(--text-primary);
+            font-size: 22px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .policy-card {
+            background-color: var(--card);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 107, 53, 0.1);
+        }
+
+        h1 {
+            color: var(--text-primary);
+            font-size: 32px;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            color: var(--primary);
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 32px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid rgba(255, 107, 53, 0.2);
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: var(--text-primary);
+            font-size: 18px;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            font-size: 16px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        ul {
+            margin-bottom: 24px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        /* Important callout box */
+        .callout {
+            background-color: rgba(255, 107, 53, 0.1);
+            border-left: 4px solid var(--primary);
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 24px 0;
+        }
+
+        .callout p {
+            margin: 0;
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #555;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .policy-card {
+                padding: 24px 16px;
+                border-radius: 12px;
+            }
+            h1 { font-size: 28px; }
+            h2 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <!-- Simple SVG Alarm Icon -->
+            <div class="logo-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="13" r="8"></circle>
+                    <path d="M12 9v4l2 2"></path>
+                    <path d="M5 3L2 6"></path>
+                    <path d="M22 6l-3-3"></path>
+                    <path d="M6.38 18.7L4 21"></path>
+                    <path d="M17.64 18.67L20 21"></path>
+                </svg>
+            </div>
+            <h1 class="header-title">Kilu Alarm</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="policy-card">
+            <h1>Privacy Policy</h1>
+            <div class="last-updated">Last Updated: September 30, 2026</div>
+
+            <p>Kilu Alarm ("we", "our", or "us") is committed to protecting your privacy. We designed this application around the core principle that your data should remain entirely on your device.</p>
+            
+            <p>This Privacy Policy explains how Kilu Alarm accesses, uses, and safeguards information when you use our mobile application.</p>
+
+            <div class="callout">
+                <p><strong>By design, Kilu Alarm does not collect, transmit, or store any personal data on external servers. The app operates entirely locally on your device and does not even request the Android INTERNET permission.</strong></p>
+            </div>
+
+            <h2>1. Information We Access</h2>
+            <p>To provide its core wake-up functionality, Kilu Alarm requires access to certain hardware and files strictly on your local device:</p>
+
+            <h3>Camera and Face Verification</h3>
+            <p>Our app is built on the concept of "No Excuse, Just Wake Up." To verify that you are awake, the app requires access to your device's <strong>Camera</strong>.</p>
+            <ul>
+                <li><strong>When it is used:</strong> The camera is strictly activated only when an alarm is ringing and you enter the wake-up verification screen.</li>
+                <li><strong>On-Device Processing:</strong> We use Google ML Kit Face Detection to analyze camera frames in real-time to check if your eyes are open and you are looking at the screen.</li>
+                <li><strong>No Data Retention or Transmission:</strong> This facial analysis happens <strong>100% locally on your device in real-time</strong>. Camera frames are held temporarily in memory for processing and are immediately discarded. We do not take photos, record videos, or extract permanent biometric identifiers. No facial data or images ever leave your device.</li>
+            </ul>
+
+            <h3>User-Selected Media and Local Storage</h3>
+            <p>You can select custom audio or video files to play during your alarm verification.</p>
+            <ul>
+                <li>To do this, we request access to read your device's media files (using Android's Storage Access Framework).</li>
+                <li>We only store the file path (URI) of your selected media locally in the app's database.</li>
+                <li>We do not copy, upload, scan, or share your media files.</li>
+            </ul>
+
+            <h3>Alarm and App Data</h3>
+            <p>Information regarding your alarms (such as alarm time, repeat schedule, label, verification configuration, and settings) is stored locally on your device in an encrypted SQLite database. This information is never transmitted to us or any third party.</p>
+
+            <h2>2. Data We Collect (None)</h2>
+            <p>Kilu Alarm <strong>does not collect</strong> any personal information.</p>
+            <ul>
+                <li>We do not have a backend server or a cloud database.</li>
+                <li>We do not require you to create a user account.</li>
+                <li>We do not collect telemetry, diagnostic information, IP addresses, or device identifiers.</li>
+            </ul>
+
+            <h2>3. Third-Party Services</h2>
+            <p>The app utilizes <strong>Google ML Kit Face Detection</strong> as an integrated library to perform the computer vision tasks necessary to verify you are awake.</p>
+            <ul>
+                <li>The ML Kit models we use are bundled directly into the app.</li>
+                <li>Because the app does not have internet access, ML Kit performs all processing locally and does not transmit analytics, diagnostic data, or images back to Google.</li>
+            </ul>
+            <p>We do <strong>not</strong> use third-party crash reporting SDKs (like Firebase Crashlytics) or advertising SDKs (like AdMob).</p>
+
+            <h2>4. Data Sharing</h2>
+            <p>Because we do not collect any user data, <strong>we do not sell, rent, or share any personal information with third parties</strong>. Your alarm schedules, media choices, and camera frames remain strictly yours and isolated to your device.</p>
+
+            <h2>5. Security and Data Retention</h2>
+            <p>We rely on Android's robust, sandboxed permission system to keep your data secure.</p>
+            <ul>
+                <li>Data is retained locally for as long as you have the app installed.</li>
+                <li><strong>Deletion:</strong> If you wish to delete your alarm data and settings, you can simply delete your alarms within the app, clear the app's data in your Android Settings, or completely uninstall Kilu Alarm. Uninstalling the app permanently removes all locally stored configurations.</li>
+            </ul>
+
+            <h2>6. User Choices and Permissions</h2>
+            <p>You have full control over the permissions granted to Kilu Alarm:</p>
+            <ul>
+                <li><strong>Camera Permission:</strong> You can revoke camera access at any time via your device's Settings. (Note: Revoking this permission will prevent the wake-up verification feature from functioning).</li>
+                <li><strong>Storage Permission:</strong> You can revoke media access at any time.</li>
+                <li><strong>Display Over Other Apps:</strong> You may toggle this on or off to control how the alarm screen behaves over a locked screen.</li>
+            </ul>
+
+            <h2>7. Children's Privacy</h2>
+            <p>Kilu Alarm is a general audience utility application. Because we do not collect any personal information from anyone, we do not knowingly collect personal information from children under the age of 13.</p>
+
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time to reflect changes in our app's functionality or legal requirements. If we make material changes, we will update the "Last Updated" date at the top of this policy and include the updated policy within the app.</p>
+
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions, concerns, or suggestions regarding this Privacy Policy or our data practices, please contact us at:</p>
+            <p>
+                <strong>[Developer Name]</strong><br>
+                <strong>Email:</strong> <a href="mailto:[Privacy Contact Email]">[Privacy Contact Email]</a><br>
+                <strong>Website:</strong> <a href="[Website, if applicable]">[Website, if applicable]</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Kilu Alarm. All rights reserved.
+    </footer>
+</body>
+</html>
